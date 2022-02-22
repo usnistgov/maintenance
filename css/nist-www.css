@@ -1,0 +1,33 @@
+.nist-footer__info, .nist-footer__menu { padding-bottom: 2rem; padding-top: 2rem; }
+.nist-footer__logo { margin-bottom: 1rem; }
+.nist-footer__logo-img { width: 286px; margin: 0; padding: 0; }
+.nist-footer__social-links, .nist-footer__feedback { margin-bottom: 1rem; }
+@media all and (min-width: 40em) {
+ .nist-footer__social-links, .nist-footer__feedback { float: right; clear: right; }
+}
+.nist-footer__social-links::after { clear: both; content: ""; display: block; }
+@media all and (min-width: 20em) {
+ .nist-footer__feedback .usa-button { margin-left: 1rem; }
+}
+.nist-footer__contact { font-size: .87rem; }
+.nist-footer__contact address { margin-top: 0; }
+.nist-footer__contact-heading { font-size: .87rem; margin-bottom: 0; }
+.nist-input__search-box #edit-k { max-width: none; }
+.nist-input__topic-list > .form-item { width: 100%; }
+.usa-checkbox__label span.webform-element-help,
+.usa-radio__label span.webform-element-help { text-indent: 0; }
+.nist-image__credit { margin-top: .2rem; }
+.agenda-item + .agenda-item { border-top: 1px solid #a9aeb1; }
+.usa-button-homepage { margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; }
+.usa-button-homepage::before { content: ''; width: 1.2em; height: 1.2em; margin-right: .9em; top: .2em; background-repeat: no-repeat; background-color: transparent; background-position: center; background-size: contain; }
+.usa-button-homepage::after { content: ''; width: 1.2em; height: 1.2em; margin-left: .9em; top: .2em; background-image: url( "/themes/custom/nist_www/img/homepage/chevron-right-white.svg" ); background-repeat: no-repeat; background-color: transparent; background-position: center; background-size: contain; }
+.usa-button-homepage--equalizer2::before { background-image: url( "/themes/custom/nist_www/img/homepage/equalizer2.svg" ); }
+.usa-button-homepage--file-text2::before { background-image: url( "/themes/custom/nist_www/img/homepage/file-text2.svg" ); }
+.usa-button-homepage--prescription::before { background-image: url( "/themes/custom/nist_www/img/homepage/prescription.svg" ); }
+.usa-button-homepage--test-tube::before { background-image: url( "/themes/custom/nist_www/img/homepage/test-tube.svg" ); }
+.nist-card--horizontal.nist-card--horizontal-full.nist-card--primary-lighter .nist-card__inner { background-color: #d9e8f6; border: 1px solid #d9e8f6; }
+#captcha-content img { display: block; margin-bottom: 1rem; margin-top: 1rem; }
+#edit-nice-apprenticeship-virtual-filter--wrapper .usa-fieldset__wrapper { border: none; }
+.filters .nist-block__title { padding-top: 1rem; }
+
+/*# sourceMappingURL=nist-www.css.map */
